@@ -49,7 +49,7 @@ class PhotoGallary {
             let item = document.createElement('div');
             item.classList.add('items');
             item.innerHTML = `
-            <img src="${photo.src.original}" alt="imeg" id="img">
+            <img src="${photo.src.medium}" alt="imeg" id="img">
             <div class="potografardiv">
              <p id="fhotogname">${photo.photographer}</p>
              </div>
